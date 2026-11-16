@@ -1,0 +1,26 @@
+# Flutter / Dart build files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+coverage/
+*.iml
+.idea/
+
+# Android build and signing files
+android/.gradle/
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# Secrets: never commit these
+.env
+env/*.json
+!env/example.json
+supabase/.temp/
+supabase/functions/.env
+
+# System files
+Thumbs.db
+.DS_Store
